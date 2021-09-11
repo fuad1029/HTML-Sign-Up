@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color: rgb(15, 138, 246);
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="POST"> 
+	<table>
+        <h1 style="text-align: center;">Sign Up form </h1>
+        <hr>
+        <label for="user">Name</label>
+        <input type="text" id="user" name="user" placeholder="write Your Name">
+        <br> <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Write Your E-mail">
+        <br> <br>
+        <label for="Pass" >Password</label>
+        <input type="password" id="Pass" name="Pass" placeholder="Write Your Password">
+        <br> <br>
+        <select name="code"> 
+            <option value="+880">+880<option>
+            <option value="+990">+990<option>
+            <option value="+110">+110<option>
+        </select>
+        <input type="number" id="phn" name="phone" placeholder="123456789" required >
+        <br> <br>
+
+        <label for="country">Choose your country</label>
+        <input list="con" >
+        <datalist id="con">
+        <option value="Bangladesh"></option>
+		<option value="India "></option>
+		<option value="Canada"></option>
+		<option value="Pakistan"></option>
+        </datalist>
+        <br>
+        <br>
+        Gender 
+		<input type="radio" name="#" > Male 
+		<input type="radio" name="#" > Female 
+		<input type="radio" name="#" > other
+		<br> <br> 
+        <label for="time">Time :</label>
+        <input type="time" id="time" name="tm"></input>
+        <br> <br>
+        <label for="file">Choose Your Photo</label>
+        <input type="file" id="file" name="fl">
+        <br> <br>
+        <input type="checkbox" id="vehical" name="vec">
+        <label for="vehical"> I have a bike </label>
+        <input type="checkbox" id="vehical2" name="vec">
+        <label for="vehical2"> I have a Bike </label>
+        <br> <br>
+		<textarea rows="20" cols="50" placeholder="Comment Here "></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+	</table>
+
+    </form>
+</body>
+</html>
